@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js"></script>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="../css/styles.css"/>
+    <title>Company Details</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="company-intro">
+        <span class="company-name" id="company"></span>
+        <div class="price-container"><p class="stock-price">Stock Price</p><span id="price"></span>
+        <span id="percent"></span></div>
+
+        <span id="description"></span>
+
+    </div>
+    <div class="chart"><canvas id="myChart" ></canvas><div  id="spinner"></div></div>
+
+    </div>
+
+    <script src=../js/companyJS.js></script>
+    
+</body>
+</html>
